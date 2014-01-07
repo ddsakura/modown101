@@ -50,7 +50,7 @@ app.yui.ready(function (err) {
     }
 
     // listening for traffic only after locator finishes the walking process
-    app.listen(3000, function () {
+    app.listen(5000, function () {
         console.log("Server listening on port 3000");
     });
 });
